@@ -24,13 +24,13 @@ export function Navbar() {
                   >
                     Home
                   </Link>
-                  <Link className="text-sm font-medium hover:text-blue-500 transition-colors"href="/dashboard"
+                  {/* <Link className="text-sm font-medium hover:text-blue-500 transition-colors"href="/dashboard"
                   >
                     Dashboard
-                  </Link>
+                  </Link> */}
                 </div>
             </div>
-            {user ? (
+            {/* {user ? (
                 <div className="flex items-center gap-4">
                     <p>{user.given_name}</p>
                     <LogoutLink className={buttonVariants({ variant: "secondary"})}>Log out</LogoutLink>
@@ -40,7 +40,7 @@ export function Navbar() {
             <LoginLink className={buttonVariants()}>Log in</LoginLink>
             <RegisterLink className={buttonVariants({ variant: "secondary"})}>Sign up</RegisterLink>
             </div>
-            )}
+            )} */}
         </nav>
     )
 }
