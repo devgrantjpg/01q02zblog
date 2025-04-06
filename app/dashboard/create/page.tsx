@@ -1,6 +1,5 @@
-"use client"
 import { handleSubmission } from "@/app/action";
-import { Button } from "@/components/ui/button";
+import { Submitbutton } from "@/components/general/Submitbutton";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -29,7 +28,7 @@ export default function CreateBlogroute(){
                             <Label>Image URL</Label>
                             <Input name="url" required type="url" placeholder="Image url" />
                         </div>
-                        <Button>Create Post</Button>
+                        <Submitbutton />
                     </form>
                 </CardContent>
             </Card>
