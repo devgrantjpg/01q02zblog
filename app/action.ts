@@ -3,6 +3,7 @@
 import { redirect } from "next/navigation";
 import { prisma } from "./utils/db";
 import { getKindeServerSession } from "@kinde-oss/kinde-auth-nextjs/server";
+import { revalidatePath } from "next/cache";
 
 export async function handleSubmission(formData: FormData) {
     const { getUser } = getKindeServerSession();
@@ -33,6 +34,8 @@ export async function handleSubmission(formData: FormData) {
             authorName: user.given_name ?? "", // Handle possible null values
         },
     });
+    
+    revalidatePath("/");
 
     return redirect("/dashboard");
 }
