@@ -1,20 +1,10 @@
-import type { NextConfig } from "next";
+import { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
       {
-        hostname: "marketplace.canva.com", 
-        protocol: "https",
-        port: "",
-      },
-      {
-        hostname: "lh3.googleusercontent.com",
-        protocol: "https",
-        port: "",
-      },
-      {
-        hostname: "t4.ftcdn.net",
+        hostname: "*",  // Allow images from any domain
         protocol: "https",
         port: "",
       },
