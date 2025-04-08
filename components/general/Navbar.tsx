@@ -28,6 +28,10 @@ export function Navbar() {
                   >
                     Dashboard
                   </Link> 
+                  <Link className="text-sm font-medium hover:text-blue-500 transition-colors"href="/ecom"
+                  >
+                    Shop Online
+                  </Link> 
                 </div>
             </div>
              {user ? (
