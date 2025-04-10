@@ -12,7 +12,7 @@ export function Navbar() {
 
     return (
         <nav className="py-5 flex items-center justify-between">
-            <div className="flex items-center gap-6">
+            <div className="flex items-center gap-6" >
              <Link href="/">
              <h1 className="text-3xl font-semibold">
                     Market<span className="text-blue-500">board</span>
