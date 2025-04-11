@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 export default function ProductPage() {
   const products = [
@@ -37,8 +38,7 @@ export default function ProductPage() {
       padding: '40px'
     }}>
       <h1 style={{ textAlign: 'center', marginBottom: '40px' }}>Featured Products</h1>
-      <h1 style={{ textAlign: 'center', marginBottom: '40px', color: '#0f0'}}>Titan Army Gaming Monitor $689</h1>
-
+      <Link href="https://www.paypal.com/ncp/payment/V7JZP6CLE93GJ"><h1 style={{ textAlign: 'center', marginBottom: '40px', color: '#0f0'}}>Titan Army Gaming Monitor $689</h1></Link>
       <div style={{
         display: 'flex',
         flexWrap: 'wrap',
