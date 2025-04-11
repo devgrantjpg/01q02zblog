@@ -39,6 +39,7 @@ export default function ProductPage() {
     }}>
       <h1 style={{ textAlign: 'center', marginBottom: '40px' }}>Featured Products</h1>
       <Link href="https://www.paypal.com/ncp/payment/B74PJ66UWGJAU"><h1 style={{ textAlign: 'center', marginBottom: '40px', color: '#0f0'}}>Titan Army Gaming Monitor $689</h1></Link>
+      <h1 style={{ textAlign: 'center', marginBottom: '40px' }}>Shipping included</h1>
       <div style={{
         display: 'flex',
         flexWrap: 'wrap',
