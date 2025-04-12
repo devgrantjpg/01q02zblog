@@ -56,11 +56,7 @@ export default function BackgroundPage() {
   return (
     <>
       <Head>
-        <title>Background Page</title>
-        <link
-          href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@400&display=swap"
-          rel="stylesheet"
-        />
+        <title>Shop Online</title>
       </Head>
 
       <div style={styles.page}>
