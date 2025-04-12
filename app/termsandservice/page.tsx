@@ -1,5 +1,5 @@
 
-export default function() {
+export default function termsandservice() {
     return (
         <div>
         <h1>Welcome to SMVM.net</h1>
