@@ -24,13 +24,13 @@ export function Navbar() {
                   >
                     Home
                   </Link>
-                   <Link className="text-sm font-medium hover:text-blue-500 transition-colors"href="/dashboard"
-                  >
-                    Dashboard
-                  </Link> 
-                  <Link className="text-sm font-medium hover:text-blue-500 transition-colors"href="/ecom"
+                   <Link className="text-sm font-medium hover:text-blue-500 transition-colors"href="/ecom"
                   >
                     Shop Online
+                  </Link> 
+                  <Link className="text-sm font-medium hover:text-blue-500 transition-colors"href="/dashboard"
+                  >
+                    Admin
                   </Link> 
                 </div>
             </div>
