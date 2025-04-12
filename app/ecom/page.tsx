@@ -88,7 +88,7 @@ export default function ecom() {
         {/* Footer */}
         <footer style={styles.footer}>
           © 2025 SMVM.net. All rights reserved.
-          <h1><Link href="termsandservice">Terms and Services</Link></h1>
+          <h1><Link href="/termsandservice">Terms and Services</Link></h1>
         </footer>
       </div>
     </>
