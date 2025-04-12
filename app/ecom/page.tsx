@@ -1,9 +1,8 @@
-// pages/background.tsx
 import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 
-export default function BackgroundPage() {
+export default function ecom() {
   const pageStyle: React.CSSProperties = {
     minHeight: '100vh',
     width: '100%',
