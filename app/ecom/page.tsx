@@ -2,9 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 
-export default function BackgroundPage() {
-  const currentYear = new Date().getFullYear();
-
+export default function ecom() {
   const styles = {
     page: {
       minHeight: '100vh',
@@ -89,7 +87,7 @@ export default function BackgroundPage() {
 
         {/* Footer */}
         <footer style={styles.footer}>
-          © {currentYear} SMVM.net. All rights reserved.
+          © 2025 SMVM.net. All rights reserved.
           <h1><Link href="termsandservice">Terms and Services</Link></h1>
         </footer>
       </div>
