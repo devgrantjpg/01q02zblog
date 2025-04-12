@@ -26,6 +26,11 @@ export default function Home() {
 
   return (
     <div className="py-6">
+      <div className="flex items-cneter justify-bewtween">
+       <h1 className="text-3xl bold text-pink-700">
+        Enjoy SMVM Platforms & Services
+       </h1>
+      </div>
       <h1 className="text-3xl font-bold tracking-tight mb-8">Latest Post</h1>
       
       <Suspense fallback={<p>Loading...</p>}>
