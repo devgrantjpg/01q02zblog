@@ -56,7 +56,7 @@ export function Navbar() {
                 {[
                   { name: "Electronics", img: "/img/img7.jpeg", href: "/electronics" },
                   { name: "HomeDecor", img: "/img/smlgVasesColors (4).jpeg", href: "/ecomDecor" },
-                  { name: "Books", img: "/img/theoutsidersbook.jpg", href: "/books" },
+                  { name: "Books", img: "/bookimgs/thebookofdoors.jpg", href: "/books" },
                 ].map((item) => (
                   <Link
                     key={item.name}
