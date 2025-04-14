@@ -159,6 +159,23 @@ export default function ecom() {
           </div>
         </section>
 
+        <section style={styles.section}>
+          <div style={styles.imageWrapper}>
+            <div style={styles.imageCard}>
+              <img src="/bookimgs/agameofThrones.jpg" alt="A game of thrones" style={styles.image} />
+              <div style={styles.caption}>Abundance</div>
+            </div>
+            <div style={styles.imageCard}>
+              <img src="/bookimgs/aworldalonebook.jpg" alt="A world alone" style={styles.image} />
+              <div style={styles.caption}>The Book of Doors</div>
+            </div>
+            <div style={styles.imageCard}>
+              <img src="/bookimgs/circe.jpg" alt="Circe" style={styles.image} />
+              <div style={styles.caption}>Book Lovers</div>
+            </div>
+          </div>
+        </section>
+
         {/* Section 2 */}
         <section style={styles.section}>
           <div style={styles.imageWrapper}>
@@ -183,6 +200,59 @@ export default function ecom() {
           <img src="/bookimgs/BACKgrounddrawing5.jpeg" alt="Hero 5" style={styles.heroImage} />
           <img src="/bookimgs/BACKgrounddrawingcolor9.jpg" alt="Hero 6" style={styles.heroImage} />
         </div>
+        
+        <section style={styles.section}>
+          <div style={styles.imageWrapper}>
+            <div style={styles.imageCard}>
+              <img src="/bookimgs/goodOmens.jpg" alt="Good Omens" style={styles.image} />
+              <div style={styles.caption}>Good Omens</div>
+            </div>
+            <div style={styles.imageCard}>
+              <img src="/bookimgs/thelordoftheRings.jpg" alt="The Lord of the rings" style={styles.image} />
+              <div style={styles.caption}>The Lord of the rings</div>
+            </div>
+            <div style={styles.imageCard}>
+              <img src="/bookimgs/dragonFlight.jpg" alt="Dragonflight" style={styles.image} />
+              <div style={styles.caption}>Dragonflight</div>
+            </div>
+          </div>
+        </section>
+
+        <section style={styles.section}>
+          <div style={styles.imageWrapper}>
+            <div style={styles.imageCard}>
+              <img src="/bookimgs/goosebumpsHorrorland.jpg" alt="Goosebumps" style={styles.image} />
+              <div style={styles.caption}>Goosebumps Horrorland</div>
+            </div>
+            <div style={styles.imageCard}>
+              <img src="/bookimgs/goosebumpsMummy.jpg" alt="Goosebumps" style={styles.image} />
+              <div style={styles.caption}>Goosebumps Mummy</div>
+            </div>
+            <div style={styles.imageCard}>
+              <img src="/bookimgs/goosebumpstalesofHorror.jpg" alt="Goosebumps" style={styles.image} />
+              <div style={styles.caption}>Goosebumps Tales of Horror</div>
+            </div>
+          </div>
+        </section>
+
+        <section style={styles.section}>
+          <div style={styles.imageWrapper}>
+            <div style={styles.imageCard}>
+              <img src="/bookimgs/goosebumpsHouseofshivers.jpg" alt="Goosebumps" style={styles.image} />
+              <div style={styles.caption}>Goosebumps Horrorland</div>
+            </div>
+            <div style={styles.imageCard}>
+              <img src="/bookimgs/theghostlyAdventures.jpg" alt="Goosebumps" style={styles.image} />
+              <div style={styles.caption}>Goosebumps Mummy</div>
+            </div>
+            <div style={styles.imageCard}>
+              <img src="/bookimgs/welcometocampNightmare.jpg" alt="Goosebumps" style={styles.image} />
+              <div style={styles.caption}>Goosebumps Tales of Horror</div>
+            </div>
+          </div>
+        </section>
+
+
 
         {/* Footer */}
         <footer style={styles.footer}>
