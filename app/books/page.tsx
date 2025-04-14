@@ -204,7 +204,7 @@ export default function ecom() {
         <section style={styles.section}>
           <div style={styles.imageWrapper}>
             <div style={styles.imageCard}>
-              <img src="/bookimgs/goodOmens.jpg" alt="Good Omens" style={styles.image} />
+              <img src="/bookimgs/goodomensHardcover.jpg" alt="Good Omens" style={styles.image} />
               <div style={styles.caption}>Good Omens</div>
             </div>
             <div style={styles.imageCard}>
@@ -234,7 +234,6 @@ export default function ecom() {
             </div>
           </div>
         </section>
-
 
         {/* Footer */}
         <footer style={styles.footer}>
