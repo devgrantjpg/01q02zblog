@@ -204,7 +204,7 @@ export default function ecom() {
         <section style={styles.section}>
           <div style={styles.imageWrapper}>
             <div style={styles.imageCard}>
-              <img src="/bookimgs/goodomensHardcover.jpg" alt="Good Omens" style={styles.image} />
+              <img src="/bookimgs/good-omens-2.jpg" alt="Good Omens" style={styles.image} />
               <div style={styles.caption}>Good Omens</div>
             </div>
             <div style={styles.imageCard}>
