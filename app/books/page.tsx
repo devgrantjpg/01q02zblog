@@ -221,19 +221,20 @@ export default function ecom() {
         <section style={styles.section}>
           <div style={styles.imageWrapper}>
             <div style={styles.imageCard}>
-              <img src="/bookimgs/goosebumpsHorrorland.jpg" alt="Goosebumps" style={styles.image} />
-              <div style={styles.caption}>Goosebumps Horrorland</div>
-            </div>
-            <div style={styles.imageCard}>
               <img src="/bookimgs/goosebumpsMummy.jpg" alt="Goosebumps" style={styles.image} />
               <div style={styles.caption}>Goosebumps Mummy</div>
             </div>
             <div style={styles.imageCard}>
-              <img src="/bookimgs/goosebumpstalesofHorror.jpg" alt="Goosebumps" style={styles.image} />
-              <div style={styles.caption}>Goosebumps Tales of Horror</div>
+              <img src="/bookimgs/goosebumpsHouseofshivers.jpg" alt="Goosebumps" style={styles.image} />
+              <div style={styles.caption}>Goosebumps House of shiver</div>
+            </div>
+            <div style={styles.imageCard}>
+              <img src="/bookimgs/theghostlyAdventures.jpg" alt="Goosebumps" style={styles.image} />
+              <div style={styles.caption}>Goosebumps the Ghostly adventures</div>
             </div>
           </div>
         </section>
+
 
         {/* Footer */}
         <footer style={styles.footer}>
