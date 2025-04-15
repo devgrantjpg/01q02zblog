@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
-import Image from "next/image"; // ✅ Import Next.js Image
+import Image from "next/image";
 
 export default function Funnystory() {
   const styles = {
@@ -11,6 +11,14 @@ export default function Funnystory() {
       justifyContent: 'center',
       padding: '2rem',
       backgroundColor: '#000',
+    },
+    imageWrapper: {
+      width: '200px',
+      height: '300px',
+      marginTop: '1rem',
+      borderRadius: '10px',
+      overflow: 'hidden',
+      boxShadow: '0 4px 15px rgba(0,0,0,0.4)',
     },
     description: {
       marginTop: '1rem',
@@ -36,9 +44,21 @@ export default function Funnystory() {
 
   return (
     <div style={styles.container}>
-      <h1 className="text-3xl semi-bold items-center justify-between text-blue-500">
-       Funny Story
+      <h1 className="text-3xl font-semibold text-blue-500 text-center">
+        Funny Story
       </h1>
+
+      {/* 📚 Book Cover Image under title */}
+      <div style={styles.imageWrapper}>
+        <Image
+          src="/bookimgs/funnystorybook.jpg"
+          alt="Funny Story"
+          width={200}
+          height={300}
+          style={{ objectFit: 'cover' }}
+        />
+      </div>
+
       <p style={styles.description}>
         *"Author Evelyn Hugo and Daisy Jones an epic new novel set against the backdrop of the 1980s Space Shuttle program about the extraordinary lengths we go to live and love beyond our limits.
 
