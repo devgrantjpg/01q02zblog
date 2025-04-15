@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import Link from "next/link";
+import Image from "next/image"; // ✅ Import Next.js Image
 
 export default function Funnystory() {
   const styles = {
@@ -11,11 +12,11 @@ export default function Funnystory() {
       padding: '2rem',
       backgroundColor: '#000',
     },
-    image: {
+    imageWrapper: {
       width: '200px',
       height: '300px',
-      objectFit: 'cover' as const,
       borderRadius: '10px',
+      overflow: 'hidden',
       boxShadow: '0 4px 15px rgba(0,0,0,0.4)',
     },
     description: {
@@ -42,21 +43,27 @@ export default function Funnystory() {
 
   return (
     <div style={styles.container}>
-      <img 
-        src="/bookimgs/funnystorybook.jpg" 
-        alt="Featured Book" 
-        style={styles.image} 
-      />
-      <p style={styles.description}>
-        *"Daphne always loved the way her fiancé Peter told their story. How they met (on a blustery day), fell in love (over an errant hat), and moved back to his lakeside hometown to begin their life together. He really was good at telling it…right up until the moment he realized he was actually in love with his childhood best friend Petra.
+      <div style={styles.imageWrapper}>
+        <Image 
+          src="/bookimgs/atmosphere.jpg"
+          alt="Atmosphere Book Cover"
+          width={200}
+          height={300}
+          style={{ objectFit: 'cover' }}
+        />
+      </div>
 
-        Which is how Daphne begins her new story: Stranded in beautiful Waning Bay, Michigan, without friends or family but with a dream job as a children’s librarian (that barely pays the bills), and proposing to be roommates with the only person who could possibly understand her predicament: Petra’s ex, Miles Nowak."*
+      <p style={styles.description}>
+        *"Author Evelyn Hugo and Daisy Jones an epic new novel set against the backdrop of the 1980s Space Shuttle program about the extraordinary lengths we go to live and love beyond our limits.
+
+        Joan Goodwin has been obsessed with the stars for as long as she can remember. Thoughtful and reserved, Joan is content with her life as a professor of physics and astronomy at Rice University and as aunt to her precocious niece, Frances. That is, until she comes across an advertisement seeking the first women scientists to join NASA’s Space Shuttle program. Suddenly, Joan burns to be one of the few people to go to space."*
       </p>
+
       <p style={{ color: '#bbb' }}>Tax included</p>
       <p style={{ color: '#bbb' }}>Free shipping</p>
       <p style={{ color: '#bbb' }}>Paperback Novel</p>
 
-      <Link href="https://www.paypal.com/ncp/payment/Q2TRKNSJEU9ME" passHref>
+      <Link href="https://www.paypal.com/ncp/payment/PJ8W6CUKW6BEN" passHref>
         <Button style={styles.button}>Buy</Button>
       </Link>
     </div>
