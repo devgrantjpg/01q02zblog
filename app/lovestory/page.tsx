@@ -44,10 +44,6 @@ export default function Lovestory() {
 
   return (
     <div style={styles.container}>
-      <h1 className="text-3xl font-semibold text-blue-500 text-center">
-        Love Story
-      </h1>
-
       {/* 📖 Book Cover Image using Next.js Image */}
       <div style={styles.imageWrapper}>
         <Image

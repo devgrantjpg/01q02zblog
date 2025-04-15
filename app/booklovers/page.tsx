@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import Image from "next/image";
 
-export default function Atmosphere() {
+export default function Booklovers() {
   const styles = {
     container: {
       display: 'flex',
@@ -44,11 +44,11 @@ export default function Atmosphere() {
 
   return (
     <div style={styles.container}>
-      {/* 📘 Book Cover using Next.js Image */}
+      {/* 📚 Book Cover Image under title */}
       <div style={styles.imageWrapper}>
         <Image
-          src="/bookimgs/atmosphere.jpg"
-          alt="Atmosphere Book Cover"
+          src="/bookimgs/bookloversbook.jpg"
+          alt="booklovers"
           width={200}
           height={300}
           style={{ objectFit: 'cover' }}
@@ -56,16 +56,16 @@ export default function Atmosphere() {
       </div>
 
       <p style={styles.description}>
-        *"Author Evelyn Hugo and Daisy Jones deliver an epic new novel set against the backdrop of the 1980s Space Shuttle program, about the extraordinary lengths we go to live and love beyond our limits.
+        *"Nora Stephens' life is books—she’s read them all—and she is not that type of heroine. Not the plucky one, not the laidback dream girl, and especially not the sweetheart. In fact, the only people Nora is a heroine for are her clients, for whom she lands enormous deals as a cutthroat literary agent, and her beloved little sister Libby.
 
-        Joan Goodwin has been obsessed with the stars for as long as she can remember. Thoughtful and reserved, Joan is content with her life as a professor of physics and astronomy at Rice University and as aunt to her precocious niece, Frances. That is, until she comes across an advertisement seeking the first women scientists to join NASA’s Space Shuttle program. Suddenly, Joan burns to be one of the few people to go to space."*
+        Which is why she agrees to go to Sunshine Falls, North Carolina for the month of August when Libby begs her for a sisters’ trip away—with visions of a small town transformation for Nora, who she’s convinced needs to become the heroine in her own story. But instead of picnics in meadows, or run-ins with a handsome country doctor or bulging-forearmed bartender, Nora keeps bumping into Charlie Lastra, a bookish brooding editor from back in the city. It would be a meet-cute if not for the fact that they’ve met many times and it’s never been cute."*
       </p>
 
       <p style={{ color: '#bbb' }}>Tax included</p>
       <p style={{ color: '#bbb' }}>Free shipping</p>
       <p style={{ color: '#bbb' }}>Paperback Novel</p>
 
-      <Link href="https://www.paypal.com/ncp/payment/PJ8W6CUKW6BEN" passHref>
+      <Link href="" passHref>
         <Button style={styles.button}>Buy</Button>
       </Link>
     </div>

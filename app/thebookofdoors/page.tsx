@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import Image from "next/image";
 
-export default function Atmosphere() {
+export default function Thebookofdoors() {
   const styles = {
     container: {
       display: 'flex',
@@ -44,11 +44,11 @@ export default function Atmosphere() {
 
   return (
     <div style={styles.container}>
-      {/* 📘 Book Cover using Next.js Image */}
+      {/* 📚 Book Cover Image under title */}
       <div style={styles.imageWrapper}>
         <Image
-          src="/bookimgs/atmosphere.jpg"
-          alt="Atmosphere Book Cover"
+          src="/bookimgs/thebookofdoors.jpg"
+          alt="The book of doors"
           width={200}
           height={300}
           style={{ objectFit: 'cover' }}
@@ -56,16 +56,22 @@ export default function Atmosphere() {
       </div>
 
       <p style={styles.description}>
-        *"Author Evelyn Hugo and Daisy Jones deliver an epic new novel set against the backdrop of the 1980s Space Shuttle program, about the extraordinary lengths we go to live and love beyond our limits.
+        *"Cassie Andrews works in a New York City bookshop, shelving books, making coffee for customers, and living an unassuming, ordinary life. Until the day one of her favorite customers—a lonely yet charming old man—dies right in front of her. Cassie is devastated. She always loved his stories, and now she has nothing to remember him by. Nothing but the last book he was reading.  
 
-        Joan Goodwin has been obsessed with the stars for as long as she can remember. Thoughtful and reserved, Joan is content with her life as a professor of physics and astronomy at Rice University and as aunt to her precocious niece, Frances. That is, until she comes across an advertisement seeking the first women scientists to join NASA’s Space Shuttle program. Suddenly, Joan burns to be one of the few people to go to space."*
+        But this is no ordinary book…
+
+        It is the Book of Doors. 
+
+        Inscribed with enigmatic words and mysterious drawings, it promises Cassie that any door is every door. You just need to know how to open them.
+
+        Then she’s approached by a gaunt stranger in a rumpled black suit with a Scottish brogue who calls himself Drummond Fox. He’s a librarian who keeps watch over a unique set of rare volumes. The tome now in Cassie’s possession is not the only book with great power, but it is the one most coveted by those who collect them."*
       </p>
 
       <p style={{ color: '#bbb' }}>Tax included</p>
       <p style={{ color: '#bbb' }}>Free shipping</p>
       <p style={{ color: '#bbb' }}>Paperback Novel</p>
 
-      <Link href="https://www.paypal.com/ncp/payment/PJ8W6CUKW6BEN" passHref>
+      <Link href="https://www.paypal.com/ncp/payment/8NYAURF7FEMBJ" passHref>
         <Button style={styles.button}>Buy</Button>
       </Link>
     </div>

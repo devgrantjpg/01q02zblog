@@ -153,7 +153,7 @@ export default function ecom() {
               <div style={styles.caption}>Love Story</div>
             </div>
             <div style={styles.imageCard}>
-              <Link href="/atmosphere"><img src="/bookimgs/atmosphere.jpg" alt="Love Story" style={styles.image} /></Link>
+              <Link href="/atmosphere"><img src="/bookimgs/atmosphere.jpg" alt="Atmosphere" style={styles.image} /></Link>
               <div style={styles.caption}>Atmosphere</div>
             </div>
           </div>
@@ -162,15 +162,15 @@ export default function ecom() {
         <section style={styles.section}>
           <div style={styles.imageWrapper}>
             <div style={styles.imageCard}>
-            <Link href="/bookslist/abundance"><img src="/bookimgs/abundancebook.jpg" alt="Funny Story" style={styles.image} /></Link>
+            <Link href="/abundance"><img src="/bookimgs/abundancebook.jpg" alt="Abundance" style={styles.image} /></Link>
               <div style={styles.caption}>Abundance</div>
             </div>
             <div style={styles.imageCard}>
-              <img src="/bookimgs/aworldalonebook.jpg" alt="A world alone" style={styles.image} />
+              <Link href="/thebookofdoors"><img src="/bookimgs/thebookofdoors.jpg" alt="The book of doors" style={styles.image} /></Link>
               <div style={styles.caption}>The Book of Doors</div>
             </div>
             <div style={styles.imageCard}>
-              <img src="/bookimgs/circe.jpg" alt="Circe" style={styles.image} />
+              <Link href="/booklovers"><img src="/bookimgs/bookloversbook.jpg" alt="Book lovers" style={styles.image} /></Link>
               <div style={styles.caption}>Book Lovers</div>
             </div>
           </div>
@@ -180,16 +180,16 @@ export default function ecom() {
         <section style={styles.section}>
           <div style={styles.imageWrapper}>
             <div style={styles.imageCard}>
-              <img src="/bookimgs/abundancebook.jpg" alt="Abundance" style={styles.image} />
-              <div style={styles.caption}>Abundance</div>
+              <Link href="/circe"><img src="/bookimgs/circe.jpg" alt="Circe" style={styles.image} /></Link>
+              <div style={styles.caption}>Circe</div>
             </div>
             <div style={styles.imageCard}>
-              <img src="/bookimgs/thebookofdoors.jpg" alt="The Book of Doors" style={styles.image} />
-              <div style={styles.caption}>The Book of Doors</div>
+              <Link href="thelordoftherings"><img src="/bookimgs/thelordoftheRings.jpg" alt="The Lord of the rings" style={styles.image} /></Link>
+              <div style={styles.caption}>The Lord of the rings</div>
             </div>
             <div style={styles.imageCard}>
-              <img src="/bookimgs/bookloversbook.jpg" alt="Book Lovers" style={styles.image} />
-              <div style={styles.caption}>Book Lovers</div>
+              <Link href="dragonflight"><img src="/bookimgs/dragonFlight.jpg" alt="Dragonflight" style={styles.image} /></Link>
+              <div style={styles.caption}>Dragon flight</div>
             </div>
           </div>
         </section>
@@ -204,16 +204,16 @@ export default function ecom() {
         <section style={styles.section}>
           <div style={styles.imageWrapper}>
             <div style={styles.imageCard}>
-              <img src="/bookimgs/good-omens-2.jpg" alt="Good Omens" style={styles.image} />
+              <Link href="/goodomens"><img src="/bookimgs/good-omens-2.jpg" alt="Good Omens" style={styles.image} /></Link>
               <div style={styles.caption}>Good Omens</div>
             </div>
             <div style={styles.imageCard}>
-              <img src="/bookimgs/thelordoftheRings.jpg" alt="The Lord of the rings" style={styles.image} />
-              <div style={styles.caption}>The Lord of the rings</div>
+              <Link href="/aworldalone"><img src="/bookimgs/aworldalonebook.jpg" alt="A world alone" style={styles.image} /></Link>
+              <div style={styles.caption}>A world alone</div>
             </div>
             <div style={styles.imageCard}>
-              <img src="/bookimgs/dragonFlight.jpg" alt="Dragonflight" style={styles.image} />
-              <div style={styles.caption}>Dragonflight</div>
+              <Link href="/theoutsiders"> <img src="/bookimgs/theoutsidersbook.jpg" alt="The outsiders" style={styles.image} /></Link>
+              <div style={styles.caption}>The Outsiders</div>
             </div>
           </div>
         </section>
@@ -221,16 +221,16 @@ export default function ecom() {
         <section style={styles.section}>
           <div style={styles.imageWrapper}>
             <div style={styles.imageCard}>
-              <img src="/bookimgs/goosebumpsMummy.jpg" alt="Goosebumps" style={styles.image} />
+              <Link href="/themummystomb"><img src="/bookimgs/goosebumpsMummy.jpg" alt="Goosebumps" style={styles.image} /></Link>
               <div style={styles.caption}>Goosebumps Mummy</div>
             </div>
             <div style={styles.imageCard}>
-              <img src="/bookimgs/goosebumpsHouseofshivers.jpg" alt="Goosebumps" style={styles.image} />
+              <Link href="/thehouseofshivers"><img src="/bookimgs/goosebumpsHouseofshivers.jpg" alt="Goosebumps" style={styles.image} /></Link>
               <div style={styles.caption}>Goosebumps House of shiver</div>
             </div>
-            <div style={styles.imageCard}>
-              <img src="/bookimgs/theghostlyAdventures.jpg" alt="Goosebumps" style={styles.image} />
-              <div style={styles.caption}>Goosebumps the Ghostly adventures</div>
+            <div style={styles.imageCard}>  
+              <Link href="/ghostlyadventures"><img src="/bookimgs/theghostlyAdventures.jpg" alt="Goosebumps" style={styles.image} /></Link>
+             <div style={styles.caption}>Goosebumps the Ghostly adventures</div>
             </div>
           </div>
         </section>

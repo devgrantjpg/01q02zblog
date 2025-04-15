@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import Image from "next/image";
 
-export default function Atmosphere() {
+export default function Theoutsiders() {
   const styles = {
     container: {
       display: 'flex',
@@ -44,11 +44,11 @@ export default function Atmosphere() {
 
   return (
     <div style={styles.container}>
-      {/* 📘 Book Cover using Next.js Image */}
+      {/* 📚 Book Cover Image under title */}
       <div style={styles.imageWrapper}>
         <Image
-          src="/bookimgs/atmosphere.jpg"
-          alt="Atmosphere Book Cover"
+          src="/bookimgs/theoutsidersbook.jpg"
+          alt="The outsiders"
           width={200}
           height={300}
           style={{ objectFit: 'cover' }}
@@ -56,16 +56,17 @@ export default function Atmosphere() {
       </div>
 
       <p style={styles.description}>
-        *"Author Evelyn Hugo and Daisy Jones deliver an epic new novel set against the backdrop of the 1980s Space Shuttle program, about the extraordinary lengths we go to live and love beyond our limits.
+        *"No one ever said life was easy. But Ponyboy is pretty sure that he's got things figured out. He knows that he can count on his brothers, Darry and Sodapop. And he knows that he can count on his friends—true friends who would do anything for him, like Johnny and Two-Bit. But not on much else besides trouble with the Socs, a vicious gang of rich kids whose idea of a good time is beating up on “greasers” like Ponyboy. At least he knows what to expect—until the night someone takes things too far.
 
-        Joan Goodwin has been obsessed with the stars for as long as she can remember. Thoughtful and reserved, Joan is content with her life as a professor of physics and astronomy at Rice University and as aunt to her precocious niece, Frances. That is, until she comes across an advertisement seeking the first women scientists to join NASA’s Space Shuttle program. Suddenly, Joan burns to be one of the few people to go to space."*
+        The Outsiders is a dramatic and enduring work of fiction that laid the groundwork for the YA genre. S. E. Hinton's classic story of a boy who finds himself on the outskirts of regular society remains as powerful today as it was the day it was first published. "The Outsiders transformed young-adult fiction from a genre mostly about prom queens, football players and high school crushes to one that portrayed a darker, truer world." —The New York Times
+        Taut with tension, filled with drama." —The Chicago Tribune"*
       </p>
 
       <p style={{ color: '#bbb' }}>Tax included</p>
       <p style={{ color: '#bbb' }}>Free shipping</p>
       <p style={{ color: '#bbb' }}>Paperback Novel</p>
 
-      <Link href="https://www.paypal.com/ncp/payment/PJ8W6CUKW6BEN" passHref>
+      <Link href="https://www.paypal.com/ncp/payment/8NYAURF7FEMBJ" passHref>
         <Button style={styles.button}>Buy</Button>
       </Link>
     </div>

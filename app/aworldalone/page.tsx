@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import Link from "next/link";
 import Image from "next/image";
 
-export default function Atmosphere() {
+export default function Aworldalone() {
   const styles = {
     container: {
       display: 'flex',
@@ -44,11 +44,11 @@ export default function Atmosphere() {
 
   return (
     <div style={styles.container}>
-      {/* 📘 Book Cover using Next.js Image */}
+      {/* 📚 Book Cover Image under title */}
       <div style={styles.imageWrapper}>
         <Image
-          src="/bookimgs/atmosphere.jpg"
-          alt="Atmosphere Book Cover"
+          src="/bookimgs/aworldalonebook.jpg"
+          alt="A world alone"
           width={200}
           height={300}
           style={{ objectFit: 'cover' }}
@@ -56,16 +56,18 @@ export default function Atmosphere() {
       </div>
 
       <p style={styles.description}>
-        *"Author Evelyn Hugo and Daisy Jones deliver an epic new novel set against the backdrop of the 1980s Space Shuttle program, about the extraordinary lengths we go to live and love beyond our limits.
+        *"In a world where the dead don’t stay dead, survival is a brutal game of chance.
 
-        Joan Goodwin has been obsessed with the stars for as long as she can remember. Thoughtful and reserved, Joan is content with her life as a professor of physics and astronomy at Rice University and as aunt to her precocious niece, Frances. That is, until she comes across an advertisement seeking the first women scientists to join NASA’s Space Shuttle program. Suddenly, Joan burns to be one of the few people to go to space."*
+Seventeen-year-old Stella knows better than to rely on anyone but herself. When a routine scavenging trip turns into a fight for her life, she barely escapes—only to be saved by a gruff, middle-aged loner named Logan, who wants nothing to do with her. But fate has other plans. Thrown together with Joey, a reckless addict with a death wish, they seek refuge in a school-turned-compound run by the ruthless Aaron.
+
+Logan doesn’t trust the compound’s false sense of security. Stella doesn’t care—she just needs a ride north. But as tensions rise, secrets unravel, and Joey’s addiction threatens to destroy them all, the infected breach the walls, turning their safe haven into a bloodbath."*
       </p>
 
       <p style={{ color: '#bbb' }}>Tax included</p>
       <p style={{ color: '#bbb' }}>Free shipping</p>
       <p style={{ color: '#bbb' }}>Paperback Novel</p>
 
-      <Link href="https://www.paypal.com/ncp/payment/PJ8W6CUKW6BEN" passHref>
+      <Link href="" passHref>
         <Button style={styles.button}>Buy</Button>
       </Link>
     </div>
