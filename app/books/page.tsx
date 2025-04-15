@@ -145,15 +145,15 @@ export default function ecom() {
           <h1 style={styles.title}>Books</h1>
           <div style={styles.imageWrapper}>
             <div style={styles.imageCard}>
-              <Link href="/booklist/funnystory"><img src="/bookimgs/funnystorybook.jpg" alt="Funny Story" style={styles.image} /></Link>
+              <Link href="/funnystory"><img src="/bookimgs/funnystorybook.jpg" alt="Funny Story" style={styles.image} /></Link>
               <div style={styles.caption}>Funny Story</div>
             </div>
             <div style={styles.imageCard}>
-              <Link href="/booklist/lovestory"><img src="/bookimgs/lovestorybook.jpg" alt="Love Story" style={styles.image} /></Link>
+              <Link href="/lovestory"><img src="/bookimgs/lovestorybook.jpg" alt="Love Story" style={styles.image} /></Link>
               <div style={styles.caption}>Love Story</div>
             </div>
             <div style={styles.imageCard}>
-              <Link href="/booklist/atmosphere"><img src="/bookimgs/atmosphere.jpg" alt="Love Story" style={styles.image} /></Link>
+              <Link href="/atmosphere"><img src="/bookimgs/atmosphere.jpg" alt="Love Story" style={styles.image} /></Link>
               <div style={styles.caption}>Atmosphere</div>
             </div>
           </div>
