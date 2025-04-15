@@ -66,7 +66,7 @@ export default function Theoutsiders() {
       <p style={{ color: '#bbb' }}>Free shipping</p>
       <p style={{ color: '#bbb' }}>Paperback Novel</p>
 
-      <Link href="https://www.paypal.com/ncp/payment/8NYAURF7FEMBJ" passHref>
+      <Link href="https://www.paypal.com/ncp/payment/5QX4W6ULG8RAC" passHref>
         <Button style={styles.button}>Buy</Button>
       </Link>
     </div>

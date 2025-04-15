@@ -47,7 +47,7 @@ export default function Thehouseofshivers() {
       {/* 📚 Book Cover Image under title */}
       <div style={styles.imageWrapper}>
         <Image
-          src="/bookimgs/goosebumpsHouseofshivers.jpg"
+          src="/bookimgs/thehauntedcar.jpg"
           alt="House of shivers"
           width={200}
           height={300}
@@ -63,7 +63,7 @@ export default function Thehouseofshivers() {
       <p style={{ color: '#bbb' }}>Free shipping</p>
       <p style={{ color: '#bbb' }}>Paperback Novel</p>
 
-      <Link href="" passHref>
+      <Link href="https://www.paypal.com/ncp/payment/4JW676R89DG8E" passHref>
         <Button style={styles.button}>Buy</Button>
       </Link>
     </div>

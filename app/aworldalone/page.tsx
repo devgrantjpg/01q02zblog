@@ -67,7 +67,7 @@ Logan doesn’t trust the compound’s false sense of security. Stella doesn’t
       <p style={{ color: '#bbb' }}>Free shipping</p>
       <p style={{ color: '#bbb' }}>Paperback Novel</p>
 
-      <Link href="" passHref>
+      <Link href="https://www.paypal.com/ncp/payment/HTAMK99QC7FKE" passHref>
         <Button style={styles.button}>Buy</Button>
       </Link>
     </div>
