@@ -47,7 +47,7 @@ export default function Funnystory() {
       {/* 📚 Book Cover Image under title */}
       <div style={styles.imageWrapper}>
         <Image
-          src="/bookimgs/funnystorybook.jpg"
+          src="/bookimgs/theghostlyAdventures.jpg"
           alt="Funny Story"
           width={200}
           height={300}

@@ -47,7 +47,7 @@ export default function Abundance() {
       {/* 📚 Book Cover Image under title */}
       <div style={styles.imageWrapper}>
         <Image
-          src="/bookimgs/funnystorybook.jpg"
+          src="/bookimgs/abundancebook.jpg"
           alt="Funny Story"
           width={200}
           height={300}
