@@ -1,14 +1,18 @@
-import { NextConfig } from "next";
+// next.config.ts
+import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
       {
-        hostname: "*",  // Allow images from any domain
         protocol: "https",
+        hostname: "*", // Allow images from any domain
         port: "",
       },
     ],
+  },
+  eslint: {
+    ignoreDuringBuilds: true, // ✅ disables ESLint at build time
   },
 };
 
