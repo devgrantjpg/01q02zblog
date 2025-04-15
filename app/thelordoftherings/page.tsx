@@ -71,7 +71,7 @@ export default function Thelordoftherings() {
       <p style={{ color: '#bbb' }}>Free shipping</p>
       <p style={{ color: '#bbb' }}>Paperback Novel</p>
 
-      <Link href="" passHref>
+      <Link href="https://www.paypal.com/ncp/payment/S9F5XDT3VR786" passHref>
         <Button style={styles.button}>Buy</Button>
       </Link>
     </div>

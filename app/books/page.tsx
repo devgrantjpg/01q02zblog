@@ -141,6 +141,41 @@ export default function ecom() {
       {/* Main Content */}
       <div style={styles.page}>
         {/* Section 1 */}
+        <section style={styles.section}>
+          <div style={styles.imageWrapper}>
+            <div style={styles.imageCard}>
+              <Link href="/circe"><img src="/bookimgs/circe.jpg" alt="Circe" style={styles.image} /></Link>
+              <div style={styles.caption}>Circe</div>
+            </div>
+            <div style={styles.imageCard}>
+              <Link href="thelordoftherings"><img src="/bookimgs/thelordoftheRings.jpg" alt="The Lord of the rings" style={styles.image} /></Link>
+              <div style={styles.caption}>The Lord of the rings</div>
+            </div>
+            <div style={styles.imageCard}>
+              <Link href="dragonflight"><img src="/bookimgs/dragonFlight.jpg" alt="Dragonflight" style={styles.image} /></Link>
+              <div style={styles.caption}>Dragon flight</div>
+            </div>
+          </div>
+        </section>
+        
+        <section style={styles.section}>
+          <div style={styles.imageWrapper}>
+            <div style={styles.imageCard}>
+            <Link href="/abundance"><img src="/bookimgs/abundancebook.jpg" alt="Abundance" style={styles.image} /></Link>
+              <div style={styles.caption}>Abundance</div>
+            </div>
+            <div style={styles.imageCard}>
+              <Link href="/thebookofdoors"><img src="/bookimgs/thebookofdoors.jpg" alt="The book of doors" style={styles.image} /></Link>
+              <div style={styles.caption}>The Book of Doors</div>
+            </div>
+            <div style={styles.imageCard}>
+              <Link href="/booklovers"><img src="/bookimgs/bookloversbook.jpg" alt="Book lovers" style={styles.image} /></Link>
+              <div style={styles.caption}>Book Lovers</div>
+            </div>
+          </div>
+        </section>
+
+        {/* Section 3 */}
         <section style={styles.section} id="books">
           <h1 style={styles.title}>Books</h1>
           <div style={styles.imageWrapper}>
@@ -159,40 +194,6 @@ export default function ecom() {
           </div>
         </section>
 
-        <section style={styles.section}>
-          <div style={styles.imageWrapper}>
-            <div style={styles.imageCard}>
-            <Link href="/abundance"><img src="/bookimgs/abundancebook.jpg" alt="Abundance" style={styles.image} /></Link>
-              <div style={styles.caption}>Abundance</div>
-            </div>
-            <div style={styles.imageCard}>
-              <Link href="/thebookofdoors"><img src="/bookimgs/thebookofdoors.jpg" alt="The book of doors" style={styles.image} /></Link>
-              <div style={styles.caption}>The Book of Doors</div>
-            </div>
-            <div style={styles.imageCard}>
-              <Link href="/booklovers"><img src="/bookimgs/bookloversbook.jpg" alt="Book lovers" style={styles.image} /></Link>
-              <div style={styles.caption}>Book Lovers</div>
-            </div>
-          </div>
-        </section>
-
-        {/* Section 2 */}
-        <section style={styles.section}>
-          <div style={styles.imageWrapper}>
-            <div style={styles.imageCard}>
-              <Link href="/circe"><img src="/bookimgs/circe.jpg" alt="Circe" style={styles.image} /></Link>
-              <div style={styles.caption}>Circe</div>
-            </div>
-            <div style={styles.imageCard}>
-              <Link href="thelordoftherings"><img src="/bookimgs/thelordoftheRings.jpg" alt="The Lord of the rings" style={styles.image} /></Link>
-              <div style={styles.caption}>The Lord of the rings</div>
-            </div>
-            <div style={styles.imageCard}>
-              <Link href="dragonflight"><img src="/bookimgs/dragonFlight.jpg" alt="Dragonflight" style={styles.image} /></Link>
-              <div style={styles.caption}>Dragon flight</div>
-            </div>
-          </div>
-        </section>
 
         {/* Second Hero Section */}
         <div style={styles.heroSection}>

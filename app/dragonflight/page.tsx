@@ -47,7 +47,7 @@ export default function Dragonflight() {
       {/* 📚 Book Cover Image under title */}
       <div style={styles.imageWrapper}>
         <Image
-          src="/bookimgs/dragonflight.jpg"
+          src="/bookimgs/dragonflight2.jpg"
           alt="Dragonflight"
           width={200}
           height={300}
@@ -65,7 +65,7 @@ export default function Dragonflight() {
       <p style={{ color: '#bbb' }}>Free shipping</p>
       <p style={{ color: '#bbb' }}>Paperback Novel</p>
 
-      <Link href="" passHref>
+      <Link href="https://www.paypal.com/ncp/payment/VA3ZDPXQ9EBHJ" passHref>
         <Button style={styles.button}>Buy</Button>
       </Link>
     </div>
