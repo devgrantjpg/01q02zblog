@@ -12,13 +12,6 @@ export default function Funnystory() {
       padding: '2rem',
       backgroundColor: '#000',
     },
-    imageWrapper: {
-      width: '200px',
-      height: '300px',
-      borderRadius: '10px',
-      overflow: 'hidden',
-      boxShadow: '0 4px 15px rgba(0,0,0,0.4)',
-    },
     description: {
       marginTop: '1rem',
       maxWidth: '300px',
@@ -43,16 +36,9 @@ export default function Funnystory() {
 
   return (
     <div style={styles.container}>
-      <div style={styles.imageWrapper}>
-        <Image 
-          src="/bookimgs/atmosphere.jpg"
-          alt="Atmosphere Book Cover"
-          width={200}
-          height={300}
-          style={{ objectFit: 'cover' }}
-        />
-      </div>
-
+      <h1 className="text-3xl semi-bold items-center justify-between text-blue-500">
+       Funny Story
+      </h1>
       <p style={styles.description}>
         *"Author Evelyn Hugo and Daisy Jones an epic new novel set against the backdrop of the 1980s Space Shuttle program about the extraordinary lengths we go to live and love beyond our limits.
 
@@ -63,7 +49,7 @@ export default function Funnystory() {
       <p style={{ color: '#bbb' }}>Free shipping</p>
       <p style={{ color: '#bbb' }}>Paperback Novel</p>
 
-      <Link href="https://www.paypal.com/ncp/payment/PJ8W6CUKW6BEN" passHref>
+      <Link href="https://www.paypal.com/ncp/payment/8NYAURF7FEMBJ" passHref>
         <Button style={styles.button}>Buy</Button>
       </Link>
     </div>

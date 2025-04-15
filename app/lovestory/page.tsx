@@ -11,13 +11,6 @@
         padding: '2rem',
         backgroundColor: '#000',
       },
-      image: {
-        width: '200px',
-        height: '300px',
-        objectFit: 'cover' as const,
-        borderRadius: '10px',
-        boxShadow: '0 4px 15px rgba(0,0,0,0.4)',
-      },
       description: {
         marginTop: '1rem',
         maxWidth: '300px',
@@ -42,11 +35,9 @@
   
     return (
       <div style={styles.container}>
-        <img 
-          src="/bookimgs/lovestorybook.jpg" 
-          alt="Featured Book" 
-          style={styles.image} 
-        />
+        <h1 className="text-3xl items-center juistify-between text-blue-500">
+         Love Story
+        </h1>
         <p style={styles.description}>
           *"She’s a small-town schoolteacher, he’s a hotshot creative director. Together, it’s hate at first sight.
 
