@@ -226,7 +226,7 @@ export default function ecom() {
               <div style={styles.caption}>Goosebumps Mummy</div>
             </div>
             <div style={styles.imageCard}>
-              <Link href="/thehauntedcar.jpg"><img src="/bookimgs/goosebumpsHouseofshivers.jpg" alt="Goosebumps" style={styles.image} /></Link>
+              <Link href="/thehauntedcar"><img src="/bookimgs/thehauntedcar.jpg" alt="Goosebumps" style={styles.image} /></Link>
               <div style={styles.caption}>Goosebumps The haunted car</div>
             </div>
             <div style={styles.imageCard}>  
