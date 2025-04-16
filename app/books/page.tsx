@@ -141,6 +141,7 @@ export default function ecom() {
       {/* Main Content */}
       <div style={styles.page}>
         {/* Section 1 */}
+        <h1 style={styles.title}>Books</h1>
         <section style={styles.section}>
           <div style={styles.imageWrapper}>
             <div style={styles.imageCard}>
@@ -177,7 +178,6 @@ export default function ecom() {
 
         {/* Section 3 */}
         <section style={styles.section} id="books">
-          <h1 style={styles.title}>Books</h1>
           <div style={styles.imageWrapper}>
             <div style={styles.imageCard}>
               <Link href="/funnystory"><img src="/bookimgs/funnystorybook.jpg" alt="Funny Story" style={styles.image} /></Link>
@@ -227,11 +227,11 @@ export default function ecom() {
             </div>
             <div style={styles.imageCard}>
               <Link href="/thehauntedcar.jpg"><img src="/bookimgs/goosebumpsHouseofshivers.jpg" alt="Goosebumps" style={styles.image} /></Link>
-              <div style={styles.caption}>Goosebumps House of shiver</div>
+              <div style={styles.caption}>Goosebumps The haunted car</div>
             </div>
             <div style={styles.imageCard}>  
               <Link href="/ghostlyadventures"><img src="/bookimgs/theghostlyAdventures.jpg" alt="Goosebumps" style={styles.image} /></Link>
-             <div style={styles.caption}>Goosebumps the Ghostly adventures</div>
+             <div style={styles.caption}>Goosebumps The Ghostly adventures</div>
             </div>
           </div>
         </section>

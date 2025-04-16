@@ -65,7 +65,7 @@ export default function Abundance() {
       <p style={{ color: '#bbb' }}>Free shipping</p>
       <p style={{ color: '#bbb' }}>Paperback Novel</p>
 
-      <Link href="https://www.paypal.com/ncp/payment/8NYAURF7FEMBJ" passHref>
+      <Link href="https://www.paypal.com/ncp/payment/GBA7VJKTCTBR8" passHref>
         <Button style={styles.button}>Buy</Button>
       </Link>
     </div>

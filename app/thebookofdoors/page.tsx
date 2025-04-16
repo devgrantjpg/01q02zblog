@@ -71,7 +71,7 @@ export default function Thebookofdoors() {
       <p style={{ color: '#bbb' }}>Free shipping</p>
       <p style={{ color: '#bbb' }}>Paperback Novel</p>
 
-      <Link href="https://www.paypal.com/ncp/payment/8NYAURF7FEMBJ" passHref>
+      <Link href="https://www.paypal.com/ncp/payment/9DBYLH7PCPY44" passHref>
         <Button style={styles.button}>Buy</Button>
       </Link>
     </div>

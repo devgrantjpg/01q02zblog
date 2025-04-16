@@ -68,7 +68,7 @@ export default function Mummystomb() {
       <p style={{ color: '#bbb' }}>Free shipping</p>
       <p style={{ color: '#bbb' }}>Paperback Novel</p>
 
-      <Link href="" passHref>
+      <Link href="https://www.paypal.com/ncp/payment/TE5GATLMQ3CYY" passHref>
         <Button style={styles.button}>Buy</Button>
       </Link>
     </div>

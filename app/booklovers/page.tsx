@@ -65,7 +65,7 @@ export default function Booklovers() {
       <p style={{ color: '#bbb' }}>Free shipping</p>
       <p style={{ color: '#bbb' }}>Paperback Novel</p>
 
-      <Link href="" passHref>
+      <Link href="https://www.paypal.com/ncp/payment/Q2S7PT3NBRF28" passHref>
         <Button style={styles.button}>Buy</Button>
       </Link>
     </div>

@@ -67,7 +67,7 @@ But there is danger, too, for a woman who stands alone, and Circe unwittingly dr
       <p style={{ color: '#bbb' }}>Free shipping</p>
       <p style={{ color: '#bbb' }}>Paperback Novel</p>
 
-      <Link href="" passHref>
+      <Link href="https://www.paypal.com/ncp/payment/SVT3H9P8HSGFJ" passHref>
         <Button style={styles.button}>Buy</Button>
       </Link>
     </div>
