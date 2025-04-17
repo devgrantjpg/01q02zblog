@@ -74,15 +74,14 @@ export function Navbar() {
                   </Link>
                 ))}
               </div>
-              <Link
+            </div>
+            <Link
               className="flex items-center gap-1 text-sm font-medium hover:text-blue-500 transition-colors"
               href="https://0101z010a.vercel.app/"
             >
               <Cog6ToothIcon className="w-5 h-5" />
               Code Editor
             </Link>
-            </div>
-
             <Link
               className="flex items-center gap-1 text-sm font-medium hover:text-blue-500 transition-colors"
               href="/dashboard"
