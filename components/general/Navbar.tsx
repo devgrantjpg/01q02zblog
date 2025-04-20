@@ -77,7 +77,7 @@ export function Navbar() {
             </div>
             <Link
               className="flex items-center gap-1 text-sm font-medium hover:text-blue-500 transition-colors"
-              href="/dashboard"
+              href="https://0101z010a-038471.vercel.app/"
             >
               <Cog6ToothIcon className="w-5 h-5" />
               Code Editor
