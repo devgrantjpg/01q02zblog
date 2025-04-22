@@ -82,13 +82,13 @@ export function Navbar() {
               <Cog6ToothIcon className="w-5 h-5" />
               Code Editor
             </Link>
-            <Link
+            {/* <Link
               className="flex items-center gap-1 text-sm font-medium hover:text-blue-500 transition-colors"
               href=""
             >
               <Cog6ToothIcon className="w-5 h-5" />
               Crypto 
-            </Link>
+            </Link> */}
             <Link
               className="flex items-center gap-1 text-sm font-medium hover:text-blue-500 transition-colors"
               href="/dashboard"
