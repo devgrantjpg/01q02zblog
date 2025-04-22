@@ -56,9 +56,11 @@ export default function Funnystory() {
       </div>
 
       <p style={styles.description}>
-        *"Author Evelyn Hugo and Daisy Jones an epic new novel set against the backdrop of the 1980s Space Shuttle program about the extraordinary lengths we go to live and love beyond our limits.
+        *"A gifted boy has visions in his nightmares and finds himself in the middle of a haunted church mystery in this thrilling middle-grade series debut.
 
-        Joan Goodwin has been obsessed with the stars for as long as she can remember. Thoughtful and reserved, Joan is content with her life as a professor of physics and astronomy at Rice University and as aunt to her precocious niece, Frances. That is, until she comes across an advertisement seeking the first women scientists to join NASA’s Space Shuttle program. Suddenly, Joan burns to be one of the few people to go to space."*
+        Jamie O’Hare just wants to be a normal kid...but normal kids don’t see ghosts.
+ 
+        Twelve-year-old Jamie and his family move to a new town for a fresh start after his father passes away. But when his increasingly creepy nightmares start to seem real, he finds himself following clues from a ghost to unlock an old church treasure mystery. Will he and his new friends uncover the truth to the haunted church before it’s too late?"*
       </p>
 
       <p style={{ color: '#bbb' }}>Tax included</p>
