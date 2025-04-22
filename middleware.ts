@@ -2,7 +2,7 @@ import { withAuth } from "@kinde-oss/kinde-auth-nextjs/middleware";
 
 export default withAuth(
   async function middleware() {}, {
-   publicPaths: ["/", "/ecom", "/books"],
+   publicPaths: ["/", "/ecom", "/books", "/circe", "/thelordoftherings", "/dragonflight" ,"/abundance" ,"/thebookofdoors" ,"/booklovers" ,"/funnystory" ,"/lovestory" ,"/atmosphere" ,"/goodomens" ,"/aworldalone" ,"/theoutsiders" ,"/themummystomb", "/thehauntedcar", "/ghostlyadventures"],
   });
 
 export const config = {
