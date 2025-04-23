@@ -121,8 +121,8 @@ export default function Ecom() {
           <span style={styles.logo}>SMVM.net</span>
           <div style={styles.navLinks}>
             <Link href="/"><a style={styles.navLink}>Home</a></Link>
-            <Link href="#books"><a style={styles.navLink}>Books</a></Link>
-            <Link href="#about"><a style={styles.navLink}>About</a></Link>
+            <Link href="/books"><a style={styles.navLink}>Books</a></Link>
+            <Link href="/electronics"><a style={styles.navLink}>Electronics</a></Link>
             <Link href="#contact"><a style={styles.navLink}>Contact</a></Link>
           </div>
         </div>
@@ -142,24 +142,24 @@ export default function Ecom() {
         {/* Book Sections */}
         {[
           [
-            { title: "Circe", href: "/circe", src: "/bookimgs/circe.jpg" },
-            { title: "The Lord of the Rings", href: "/thelordoftherings", src: "/bookimgs/thelordoftheRings.jpg" },
-            { title: "Dragon Flight", href: "/dragonflight", src: "/bookimgs/dragonFlight.jpg" },
+            { title: "Circe", href: "/circe", src: "/img/classicradio.jpeg" },
+            { title: "The Lord of the Rings", href: "/thelordoftherings", src: "/img/classicradion3.jpeg" },
+            { title: "Dragon Flight", href: "/dragonflight", src: "/img/classicradio4.jpeg" },
           ],
           [
-            { title: "Abundance", href: "/abundance", src: "/bookimgs/abundancebook.jpg" },
-            { title: "The Book of Doors", href: "/thebookofdoors", src: "/bookimgs/thebookofdoors.jpg" },
-            { title: "Book Lovers", href: "/booklovers", src: "/bookimgs/bookloversbook.jpg" },
+            { title: "Abundance", href: "/abundance", src: "/img/img/classicradio5.jpeg" },
+            { title: "The Book of Doors", href: "/thebookofdoors", src: "/img/classicradio6.jpeg" },
+            { title: "Book Lovers", href: "/booklovers", src: "/img/img/img1.jpeg" },
           ],
           [
-            { title: "Funny Story", href: "/funnystory", src: "/bookimgs/funnystorybook.jpg" },
-            { title: "Love Story", href: "/lovestory", src: "/bookimgs/lovestorybook.jpg" },
-            { title: "Atmosphere", href: "/atmosphere", src: "/bookimgs/atmosphere.jpg" },
+            { title: "Funny Story", href: "/funnystory", src: "/img/img2.jpeg" },
+            { title: "Love Story", href: "/lovestory", src: "/img/img3.jpeg" },
+            { title: "Atmosphere", href: "/atmosphere", src: "/img/img4.jpeg" },
           ],
           [
-            { title: "Good Omens", href: "/goodomens", src: "/bookimgs/good-omens-2.jpg" },
-            { title: "A World Alone", href: "/aworldalone", src: "/bookimgs/aworldalonebook.jpg" },
-            { title: "The Outsiders", href: "/theoutsiders", src: "/bookimgs/theoutsidersbook.jpg" },
+            { title: "Good Omens", href: "/goodomens", src: "/img/img5.jpeg" },
+            { title: "A World Alone", href: "/aworldalone", src: "/img/img6.jpeg" },
+            { title: "The Outsiders", href: "/theoutsiders", src: "/img/im7.jpeg" },
           ],
           [
             { title: "Goosebumps Mummy", href: "/themummystomb", src: "/bookimgs/goosebumpsMummy.jpg" },
