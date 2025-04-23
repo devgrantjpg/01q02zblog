@@ -83,7 +83,7 @@ export default function Electronics() {
       maxWidth: "200px",
     },
     image: {
-      width: "175px",
+      width: "200px",
       height: "auto",
       borderRadius: "12px",
       boxShadow: "0 4px 20px rgba(0,0,0,0.3)",
@@ -143,24 +143,24 @@ export default function Electronics() {
         {[
           [
             { title: "Classic Radio", href: "", src: "/img/classicradio.jpeg" },
-            { title: "Classic Radio", href: "", src: "/img/classicradion3.jpeg" },
+            { title: "Classic Radio", href: "", src: "/img/classicradio3.jpeg" },
             { title: "Classic Radio", href: "", src: "/img/classicradio4.jpeg" },
           ],
           [
             { title: "Classic Radio", href: "", src: "/img/classicradio5.jpeg" },
             { title: "Classic Radio", href: "", src: "/img/classicradio6.jpeg" },
-            { title: "Computer Monitor", href: "", src: "/img/img1.jpeg" },
+            { title: "Computer Monitor", href: "", src: "" },
           ],
-          [
-            { title: "Computer Monitor", href: "", src: "/img/img2.jpeg" },
-            { title: "Computer Monitor", href: "", src: "/img/img3.jpeg" },
-            { title: "Computer Monitor", href: "", src: "/img/img4.jpeg" },
-          ],
-          [
-            { title: "Computer Monitor", href: "", src: "/img/img5.jpeg" },
-            { title: "Computer Monitor", href: "", src: "/img/img6.jpeg" },
-            { title: "Computer Monitor", href: "", src: "/img/im7.jpeg" },
-          ],
+          // [
+          //   { title: "Curved Computer Monitor", href: "", src: "/img/img2.jpeg" },
+          //   { title: "Computer Monitor", href: "", src: "" },
+          //   { title: "Computer Monitor", href: "", src: "" },
+          // ],
+          // [
+          //   { title: "Computer Monitor", href: "", src: "" },
+          //   { title: "Computer Monitor", href: "", src: "" },
+          //   { title: "Computer Monitor", href: "", src: "" },
+          // ],
           [
             { title: "Goosebumps Mummy", href: "/themummystomb", src: "/bookimgs/goosebumpsMummy.jpg" },
             { title: "The Haunted Car", href: "/thehauntedcar", src: "/bookimgs/thehauntedcar.jpg" },
