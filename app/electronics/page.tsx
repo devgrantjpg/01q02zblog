@@ -137,29 +137,29 @@ export default function Electronics() {
 
       {/* Main Page */}
       <div style={styles.page}>
-        <h1 style={styles.title}>Books</h1>
+        <h1 style={styles.title}>Retro Radios</h1>
 
         {/* Book Sections */}
         {[
           [
-            { title: "Circe", href: "/circe", src: "/img/classicradio.jpeg" },
-            { title: "The Lord of the Rings", href: "/thelordoftherings", src: "/img/classicradion3.jpeg" },
-            { title: "Dragon Flight", href: "/dragonflight", src: "/img/classicradio4.jpeg" },
+            { title: "Classic Radio", href: "", src: "/img/classicradio.jpeg" },
+            { title: "Classic Radio", href: "", src: "/img/classicradion3.jpeg" },
+            { title: "Classic Radio", href: "", src: "/img/classicradio4.jpeg" },
           ],
           [
-            { title: "Abundance", href: "/abundance", src: "/img/img/classicradio5.jpeg" },
-            { title: "The Book of Doors", href: "/thebookofdoors", src: "/img/classicradio6.jpeg" },
-            { title: "Book Lovers", href: "/booklovers", src: "/img/img/img1.jpeg" },
+            { title: "Classic Radio", href: "", src: "/img/classicradio5.jpeg" },
+            { title: "Classic Radio", href: "", src: "/img/classicradio6.jpeg" },
+            { title: "Computer Monitor", href: "", src: "/img/img1.jpeg" },
           ],
           [
-            { title: "Funny Story", href: "/funnystory", src: "/img/img2.jpeg" },
-            { title: "Love Story", href: "/lovestory", src: "/img/img3.jpeg" },
-            { title: "Atmosphere", href: "/atmosphere", src: "/img/img4.jpeg" },
+            { title: "Computer Monitor", href: "", src: "/img/img2.jpeg" },
+            { title: "Computer Monitor", href: "", src: "/img/img3.jpeg" },
+            { title: "Computer Monitor", href: "", src: "/img/img4.jpeg" },
           ],
           [
-            { title: "Good Omens", href: "/goodomens", src: "/img/img5.jpeg" },
-            { title: "A World Alone", href: "/aworldalone", src: "/img/img6.jpeg" },
-            { title: "The Outsiders", href: "/theoutsiders", src: "/img/im7.jpeg" },
+            { title: "Computer Monitor", href: "", src: "/img/img5.jpeg" },
+            { title: "Computer Monitor", href: "", src: "/img/img6.jpeg" },
+            { title: "Computer Monitor", href: "", src: "/img/im7.jpeg" },
           ],
           [
             { title: "Goosebumps Mummy", href: "/themummystomb", src: "/bookimgs/goosebumpsMummy.jpg" },
