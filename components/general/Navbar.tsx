@@ -54,7 +54,7 @@ export function Navbar() {
 
               <div className="absolute left-0 mt-2 w-72 bg-white border shadow-md p-4 rounded-md space-y-3 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-30">
                 {[
-                  { name: "Electronics", img: "/img/img7.jpeg", href: "" },
+                  { name: "Electronics", img: "/img/img7.jpeg", href: "/electronics" },
                   { name: "HomeDecor", img: "/img/smlgVasesColors (4).jpeg", href: "" },
                   { name: "Books", img: "/bookimgs/thebookofdoors.jpg", href: "/books" },
                 ].map((item) => (
