@@ -149,13 +149,13 @@ export default function Electronics() {
           [
             { title: "Classic Radio", href: "", src: "/img/classicradio5.jpeg" },
             { title: "Classic Radio", href: "", src: "/img/classicradio6.jpeg" },
-            { title: "Computer Monitor", href: "", src: "" },
+            { title: "Classic Radio", href: "", src: "/img/retroRadiobrown" },
           ],
-          // [
-          //   { title: "Curved Computer Monitor", href: "", src: "/img/img2.jpeg" },
-          //   { title: "Computer Monitor", href: "", src: "" },
-          //   { title: "Computer Monitor", href: "", src: "" },
-          // ],
+          [
+            { title: "Classic Radio", href: "", src: "/img/victorlaRadio" },
+            { title: "Classic Radio", href: "", src: "/img/retroradioBackgroundblueCloseup" },
+            { title: "Curved Computer Monitor", href: "", src: "/img/img2.jpeg" },
+          ],
           // [
           //   { title: "Computer Monitor", href: "", src: "" },
           //   { title: "Computer Monitor", href: "", src: "" },
