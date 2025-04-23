@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 
-export default function Ecom() {
+export default function Electronics() {
   const styles = {
     navBar: {
       width: "100%",
