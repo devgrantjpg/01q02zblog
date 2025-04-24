@@ -119,12 +119,12 @@ export default function Ecom() {
       {/* Top Navigation Menu */}
       <nav style={styles.navBar}>
         <div style={styles.navContent}>
-          <span style={styles.logo}>SMVM.net</span>
+          <span style={styles.logo}>Latest Trending Products</span>
           <div style={styles.navLinks}>
             <Link href="/" style={styles.navLink}>Home</Link>
-            <Link href="#books" style={styles.navLink}>Books</Link>
-            <Link href="#about" style={styles.navLink}>About</Link>
-            <Link href="#contact" style={styles.navLink}>Contact</Link>
+            <Link href="/books" style={styles.navLink}>Books</Link>
+            <Link href="/electronics" style={styles.navLink}>Electronics</Link>
+            <Link href="/homedecor" style={styles.navLink}>Home Decor</Link>
           </div>
         </div>
       </nav>

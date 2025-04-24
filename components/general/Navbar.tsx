@@ -31,7 +31,7 @@ export function Navbar() {
         <div className="flex items-center gap-6">
           <Link href="/">
             <h1 className="text-3xl font-semibold">
-              Market<span className="text-blue-500">board</span>
+              SMVM<span className="text-blue-500">.net</span>
             </h1>
           </Link>
 
