@@ -118,12 +118,12 @@ export default function Electronics() {
       {/* Navbar */}
       <nav style={styles.navBar}>
         <div style={styles.navContent}>
-          <span style={styles.logo}>SMVM.net</span>
+          <span style={styles.logo}>Latest Trending Products</span>
           <div style={styles.navLinks}>
             <Link href="/"><a style={styles.navLink}>Home</a></Link>
             <Link href="/books"><a style={styles.navLink}>Books</a></Link>
             <Link href="/electronics"><a style={styles.navLink}>Electronics</a></Link>
-            <Link href="#contact"><a style={styles.navLink}>Contact</a></Link>
+            <Link href="/homedecor"><a style={styles.navLink}>Home Decor</a></Link>
           </div>
         </div>
       </nav>
