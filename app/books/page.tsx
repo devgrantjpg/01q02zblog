@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Link from "next/link";
 
-export default function ecom() {
+export default function Ecom() {
   const styles = {
     navBar: {
       width: '100%',
@@ -10,7 +10,7 @@ export default function ecom() {
       boxShadow: '0 2px 10px rgba(0,0,0,0.3)',
       position: 'sticky' as const,
       top: 0,
-      zIndex: 1000,
+      zIndex: 10, // Lowered to prevent overlapping dropdowns
     },
     navContent: {
       display: 'flex',
@@ -37,7 +37,6 @@ export default function ecom() {
       transition: 'color 0.2s ease-in-out',
       cursor: 'pointer',
     },
-
     heroSection: {
       display: 'flex',
       width: '100%',
@@ -50,7 +49,6 @@ export default function ecom() {
       objectFit: 'cover' as const,
       height: '100%',
     },
-
     page: {
       minHeight: '100vh',
       width: '100%',
@@ -131,7 +129,7 @@ export default function ecom() {
         </div>
       </nav>
 
-      {/* Hero Section - Top Background Images */}
+      {/* Hero Section */}
       <div style={styles.heroSection}>
         <img src="/bookimgs/BACKgroundcity.jpg" alt="Hero 1" style={styles.heroImage} />
         <img src="/bookimgs/BACKgroundnyc3.jpg" alt="Hero 2" style={styles.heroImage} />
@@ -140,102 +138,94 @@ export default function ecom() {
 
       {/* Main Content */}
       <div style={styles.page}>
-        {/* Section 1 */}
         <h1 style={styles.title}>Books</h1>
+
+        {/* Section 1 */}
         <section style={styles.section}>
           <div style={styles.imageWrapper}>
-            <div style={styles.imageCard}>
-              <Link href="/circe"><img src="/bookimgs/circe.jpg" alt="Circe" style={styles.image} /></Link>
-              <div style={styles.caption}>Circe</div>
-            </div>
-            <div style={styles.imageCard}>
-              <Link href="thelordoftherings"><img src="/bookimgs/thelordoftheRings.jpg" alt="The Lord of the rings" style={styles.image} /></Link>
-              <div style={styles.caption}>The Lord of the rings</div>
-            </div>
-            <div style={styles.imageCard}>
-              <Link href="dragonflight"><img src="/bookimgs/dragonFlight.jpg" alt="Dragonflight" style={styles.image} /></Link>
-              <div style={styles.caption}>Dragon flight</div>
-            </div>
+            {[
+              { href: "/circe", img: "circe.jpg", title: "Circe" },
+              { href: "thelordoftherings", img: "thelordoftheRings.jpg", title: "The Lord of the rings" },
+              { href: "dragonflight", img: "dragonFlight.jpg", title: "Dragon flight" },
+            ].map((book, i) => (
+              <div style={styles.imageCard} key={i}>
+                <Link href={book.href}><img src={`/bookimgs/${book.img}`} alt={book.title} style={styles.image} /></Link>
+                <div style={styles.caption}>{book.title}</div>
+              </div>
+            ))}
           </div>
         </section>
-        
+
+        {/* Section 2 */}
         <section style={styles.section}>
           <div style={styles.imageWrapper}>
-            <div style={styles.imageCard}>
-            <Link href="/abundance"><img src="/bookimgs/abundancebook.jpg" alt="Abundance" style={styles.image} /></Link>
-              <div style={styles.caption}>Abundance</div>
-            </div>
-            <div style={styles.imageCard}>
-              <Link href="/thebookofdoors"><img src="/bookimgs/thebookofdoors.jpg" alt="The book of doors" style={styles.image} /></Link>
-              <div style={styles.caption}>The Book of Doors</div>
-            </div>
-            <div style={styles.imageCard}>
-              <Link href="/booklovers"><img src="/bookimgs/bookloversbook.jpg" alt="Book lovers" style={styles.image} /></Link>
-              <div style={styles.caption}>Book Lovers</div>
-            </div>
+            {[
+              { href: "/abundance", img: "abundancebook.jpg", title: "Abundance" },
+              { href: "/thebookofdoors", img: "thebookofdoors.jpg", title: "The Book of Doors" },
+              { href: "/booklovers", img: "bookloversbook.jpg", title: "Book Lovers" },
+            ].map((book, i) => (
+              <div style={styles.imageCard} key={i}>
+                <Link href={book.href}><img src={`/bookimgs/${book.img}`} alt={book.title} style={styles.image} /></Link>
+                <div style={styles.caption}>{book.title}</div>
+              </div>
+            ))}
           </div>
         </section>
 
         {/* Section 3 */}
         <section style={styles.section} id="books">
           <div style={styles.imageWrapper}>
-            <div style={styles.imageCard}>
-              <Link href="/funnystory"><img src="/bookimgs/funnystorybook.jpg" alt="Funny Story" style={styles.image} /></Link>
-              <div style={styles.caption}>Funny Story</div>
-            </div>
-            <div style={styles.imageCard}>
-              <Link href="/lovestory"><img src="/bookimgs/lovestorybook.jpg" alt="Love Story" style={styles.image} /></Link>
-              <div style={styles.caption}>Love Story</div>
-            </div>
-            <div style={styles.imageCard}>
-              <Link href="/atmosphere"><img src="/bookimgs/atmosphere.jpg" alt="Atmosphere" style={styles.image} /></Link>
-              <div style={styles.caption}>Atmosphere</div>
-            </div>
+            {[
+              { href: "/funnystory", img: "funnystorybook.jpg", title: "Funny Story" },
+              { href: "/lovestory", img: "lovestorybook.jpg", title: "Love Story" },
+              { href: "/atmosphere", img: "atmosphere.jpg", title: "Atmosphere" },
+            ].map((book, i) => (
+              <div style={styles.imageCard} key={i}>
+                <Link href={book.href}><img src={`/bookimgs/${book.img}`} alt={book.title} style={styles.image} /></Link>
+                <div style={styles.caption}>{book.title}</div>
+              </div>
+            ))}
           </div>
         </section>
 
-
-        {/* Second Hero Section */}
+        {/* Hero Section 2 */}
         <div style={styles.heroSection}>
           <img src="/bookimgs/BACKgrounddrawing7.jpg" alt="Hero 4" style={styles.heroImage} />
           <img src="/bookimgs/BACKgrounddrawing5.jpeg" alt="Hero 5" style={styles.heroImage} />
           <img src="/bookimgs/BACKgrounddrawingcolor9.jpg" alt="Hero 6" style={styles.heroImage} />
         </div>
-        
+
+        {/* Section 4 */}
         <section style={styles.section}>
           <div style={styles.imageWrapper}>
-            <div style={styles.imageCard}>
-              <Link href="/goodomens"><img src="/bookimgs/good-omens-2.jpg" alt="Good Omens" style={styles.image} /></Link>
-              <div style={styles.caption}>Good Omens</div>
-            </div>
-            <div style={styles.imageCard}>
-              <Link href="/aworldalone"><img src="/bookimgs/aworldalonebook.jpg" alt="A world alone" style={styles.image} /></Link>
-              <div style={styles.caption}>A world alone</div>
-            </div>
-            <div style={styles.imageCard}>
-              <Link href="/theoutsiders"> <img src="/bookimgs/theoutsidersbook.jpg" alt="The outsiders" style={styles.image} /></Link>
-              <div style={styles.caption}>The Outsiders</div>
-            </div>
+            {[
+              { href: "/goodomens", img: "good-omens-2.jpg", title: "Good Omens" },
+              { href: "/aworldalone", img: "aworldalonebook.jpg", title: "A world alone" },
+              { href: "/theoutsiders", img: "theoutsidersbook.jpg", title: "The Outsiders" },
+            ].map((book, i) => (
+              <div style={styles.imageCard} key={i}>
+                <Link href={book.href}><img src={`/bookimgs/${book.img}`} alt={book.title} style={styles.image} /></Link>
+                <div style={styles.caption}>{book.title}</div>
+              </div>
+            ))}
           </div>
         </section>
 
+        {/* Section 5 */}
         <section style={styles.section}>
           <div style={styles.imageWrapper}>
-            <div style={styles.imageCard}>
-              <Link href="/themummystomb"><img src="/bookimgs/goosebumpsMummy.jpg" alt="Goosebumps" style={styles.image} /></Link>
-              <div style={styles.caption}>Goosebumps Mummy</div>
-            </div>
-            <div style={styles.imageCard}>
-              <Link href="/thehauntedcar"><img src="/bookimgs/thehauntedcar.jpg" alt="Goosebumps" style={styles.image} /></Link>
-              <div style={styles.caption}>Goosebumps The haunted car</div>
-            </div>
-            <div style={styles.imageCard}>  
-              <Link href="/ghostlyadventures"><img src="/bookimgs/theghostlyAdventures.jpg" alt="Goosebumps" style={styles.image} /></Link>
-             <div style={styles.caption}>Goosebumps The Ghostly adventures</div>
-            </div>
+            {[
+              { href: "/themummystomb", img: "goosebumpsMummy.jpg", title: "Goosebumps Mummy" },
+              { href: "/thehauntedcar", img: "thehauntedcar.jpg", title: "Goosebumps The haunted car" },
+              { href: "/ghostlyadventures", img: "theghostlyAdventures.jpg", title: "Goosebumps The Ghostly adventures" },
+            ].map((book, i) => (
+              <div style={styles.imageCard} key={i}>
+                <Link href={book.href}><img src={`/bookimgs/${book.img}`} alt={book.title} style={styles.image} /></Link>
+                <div style={styles.caption}>{book.title}</div>
+              </div>
+            ))}
           </div>
         </section>
-
 
         {/* Footer */}
         <footer style={styles.footer}>
