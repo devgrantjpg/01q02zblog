@@ -188,13 +188,6 @@ export default function Ecom() {
           </div>
         </section>
 
-        {/* Hero Section 2 */}
-        <div style={styles.heroSection}>
-          <img src="/bookimgs/BACKgrounddrawing7.jpg" alt="Hero 4" style={styles.heroImage} />
-          <img src="/bookimgs/BACKgrounddrawing5.jpeg" alt="Hero 5" style={styles.heroImage} />
-          <img src="/bookimgs/BACKgrounddrawingcolor9.jpg" alt="Hero 6" style={styles.heroImage} />
-        </div>
-
         {/* Section 4 */}
         <section style={styles.section}>
           <div style={styles.imageWrapper}>
@@ -226,6 +219,13 @@ export default function Ecom() {
             ))}
           </div>
         </section>
+
+                {/* Hero Section 2 */}
+                <div style={styles.heroSection}>
+          <img src="/bookimgs/BACKgrounddrawing7.jpg" alt="Hero 4" style={styles.heroImage} />
+          <img src="/bookimgs/BACKgrounddrawing5.jpeg" alt="Hero 5" style={styles.heroImage} />
+          <img src="/bookimgs/BACKgrounddrawingcolor9.jpg" alt="Hero 6" style={styles.heroImage} />
+        </div>
 
         {/* Footer */}
         <footer style={styles.footer}>
