@@ -121,9 +121,9 @@ export default function Ecom() {
           <span style={styles.logo}>SMVM.net</span>
           <div style={styles.navLinks}>
             <Link href="/"><a style={styles.navLink}>Home</a></Link>
-            <Link href="#books"><a style={styles.navLink}>Books</a></Link>
-            <Link href="#about"><a style={styles.navLink}>About</a></Link>
-            <Link href="#contact"><a style={styles.navLink}>Contact</a></Link>
+            <Link href="/books"><a style={styles.navLink}>Books</a></Link>
+            <Link href="/homedecor"><a style={styles.navLink}>Home Decor</a></Link>
+            <Link href="/electronics"><a style={styles.navLink}>Electronics</a></Link>
           </div>
         </div>
       </nav>
