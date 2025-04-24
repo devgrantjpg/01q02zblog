@@ -148,18 +148,18 @@ export default function Electronics() {
           ],
           [
             { title: "", href: "", src: "/img/smlgVasesColors (6).jpeg" },
-            { title: "", href: "", src: "/img/igCeramicHandmade (1).jpeg" },
-            { title: "", href: "", src: "/img/igCeramicHandmade (2).jpeg" },
+            { title: "", href: "", src: "/img/lgCeramicHandmade (1).jpeg" },
+            { title: "", href: "", src: "/img/lgCeramicHandmade (2).jpeg" },
           ],
           [
-            { title: "", href: "", src: "/img/igCeramicHandmade (3).jpeg" },
-            { title: "", href: "", src: "/img/igCeramicHandmade (4).jpeg" },
-            { title: "", href: "", src: "/img/igCeramicHandmade (1).jpeg" },
+            { title: "", href: "", src: "/img/lgCeramicHandmade (3).jpeg" },
+            { title: "", href: "", src: "/img/lgCeramicHandmade (4).jpeg" },
+            { title: "", href: "", src: "/img/lgCeramicHandmade (1).jpeg" },
           ],
           [
-            { title: "", href: "", src: "/img/igCeramicHandmade (5).jpeg" },
-            { title: "", href: "", src: "/img/igCeramicHandmade (6).jpeg" },
-            { title: "", href: "", src: "/img/igCeramicHandmade (7).jpeg" },
+            { title: "", href: "", src: "/img/lgCeramicHandmade (5).jpeg" },
+            { title: "", href: "", src: "/img/lgCeramicHandmade (6).jpeg" },
+            { title: "", href: "", src: "/img/lgCeramicHandmade (7).jpeg" },
           ],
         //   [
         //     { title: "Goosebumps Mummy", href: "/themummystomb", src: "/bookimgs/goosebumpsMummy.jpg" },
