@@ -142,24 +142,24 @@ export default function Electronics() {
         {/* Book Sections */}
         {[
           [
-            { title: "Classic Radio", href: "", src: "/img/smlgVasesColors (3).jpeg" },
-            { title: "Classic Radio", href: "", src: "/img/smlgVasesColors (4).jpeg" },
-            { title: "Classic Radio", href: "", src: "/img/smlgVasesColors (5).jpeg" },
+            { title: "", href: "", src: "/img/smlgVasesColors (3).jpeg" },
+            { title: "", href: "", src: "/img/smlgVasesColors (4).jpeg" },
+            { title: "", href: "", src: "/img/smlgVasesColors (5).jpeg" },
           ],
           [
-            { title: "Classic Radio", href: "", src: "/smlgVasesColors (6).jpeg" },
-            { title: "Classic Radio", href: "", src: "/igCeramicHandmade (1).jpeg" },
-            { title: "Classic Radio", href: "", src: "/igCeramicHandmade (2).jpeg" },
+            { title: "", href: "", src: "/img/smlgVasesColors (6).jpeg" },
+            { title: "", href: "", src: "/img/igCeramicHandmade (1).jpeg" },
+            { title: "", href: "", src: "/img/igCeramicHandmade (2).jpeg" },
           ],
           [
-            { title: "Classic Radio", href: "", src: "/img/igCeramicHandmade (3).jpeg" },
-            { title: "Classic Radio", href: "", src: "/img/igCeramicHandmade (4).jpeg" },
-            { title: "Curved Computer Monitor", href: "", src: "/igCeramicHandmade (1).jpeg" },
+            { title: "", href: "", src: "/img/igCeramicHandmade (3).jpeg" },
+            { title: "", href: "", src: "/img/igCeramicHandmade (4).jpeg" },
+            { title: "", href: "", src: "/img/igCeramicHandmade (1).jpeg" },
           ],
           [
-            { title: "Computer Monitor", href: "", src: "/igCeramicHandmade (5).jpeg" },
-            { title: "Computer Monitor", href: "", src: "/igCeramicHandmade (6).jpeg" },
-            { title: "Computer Monitor", href: "", src: "/igCeramicHandmade (7).jpeg" },
+            { title: "", href: "", src: "/img/igCeramicHandmade (5).jpeg" },
+            { title: "", href: "", src: "/img/igCeramicHandmade (6).jpeg" },
+            { title: "", href: "", src: "/img/igCeramicHandmade (7).jpeg" },
           ],
         //   [
         //     { title: "Goosebumps Mummy", href: "/themummystomb", src: "/bookimgs/goosebumpsMummy.jpg" },
